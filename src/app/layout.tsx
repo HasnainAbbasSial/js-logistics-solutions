@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JS Logistics Solutions | Premium Truck Dispatching Services",
     description: "Expert truck dispatch services tailored for owner-operators and small fleets.",
-    url: "https://jslogisticssolutions.com",
+    url: "https://jslogisticsolutions.com",
     siteName: "JS Logistics Solutions",
     images: [
       {

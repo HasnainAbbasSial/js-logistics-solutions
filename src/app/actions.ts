@@ -20,7 +20,7 @@ export async function sendContactEmail(formData: FormData) {
         return { success: false, error: "Missing required fields" };
     }
 
-    console.log("Attempting to send email to info@axedispatch.com...");
+    console.log("Attempting to send email to info@jslogisticsolutions.com...");
     console.log("Form data:", { name, email, phone, truckType });
 
     try {
@@ -33,7 +33,7 @@ export async function sendContactEmail(formData: FormData) {
         const { data, error } = await Promise.race([
             resend.emails.send({
                 from: "JS Logistics <onboarding@resend.dev>",
-                to: ["info@jslogisticssolutions.com"],
+                to: ["info@jslogisticsolutions.com"],
                 subject: `New Carrier Lead: ${name} - ${truckType}`,
                 html: `
             <h2>New Inquiry from JS Logistics Website</h2>

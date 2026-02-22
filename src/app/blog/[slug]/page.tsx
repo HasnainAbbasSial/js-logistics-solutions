@@ -137,7 +137,7 @@ export default async function BlogPostPage({ params }: Props) {
                         {/* CTA */}
                         <div className="mt-20 p-10 bg-white/5 border border-white/10 rounded-[2.5rem] text-center">
                             <h3 className="text-3xl font-bold mb-4 text-white">Ready to Scale Your Trucking Business?</h3>
-                            <p className="text-white/70 mb-8 text-lg">Let AXE Dispatch handle your loads while you focus on driving.</p>
+                            <p className="text-white/70 mb-8 text-lg">Let JS Logistics Solutions handle your loads while you focus on driving.</p>
                             <Link
                                 href="/contact"
                                 className="inline-flex items-center gap-2 bg-primary text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-red-700 transition-all shadow-xl shadow-primary/20"

@@ -61,7 +61,7 @@ const TermsOfService = () => {
                         </p>
                         <div className="mt-4 p-6 bg-accent/50 dark:bg-gray-900 rounded-2xl">
                             <p className="font-bold">JS Logistics Solutions</p>
-                            <p>Email: info@jslogisticssolutions.com</p>
+                            <p>Email: info@jslogisticsolutions.com</p>
                             <p>Address: Downtown Business Center, New York, NY, USA</p>
                         </div>
                     </section>

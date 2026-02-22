@@ -174,11 +174,10 @@ export default function Home() {
           </p>
           <div className="flex flex-center justify-center gap-6">
             <Link
-              href="tel:+13079982087"
-              className="bg-secondary text-white px-10 py-5 rounded-2xl font-bold text-xl flex items-center gap-3 hover:bg-black transition-all shadow-2xl"
+              href="tel:+14560467584"
+              className="inline-flex items-center gap-2 bg-primary text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-red-700 transition-all shadow-xl shadow-primary/20"
             >
-              <PhoneCall size={24} />
-              Talk to an Expert
+              Contact Us <Phone size={20} />
             </Link>
           </div>
         </div>
