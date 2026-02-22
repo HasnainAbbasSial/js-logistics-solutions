@@ -77,8 +77,8 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-center gap-3">
                                 <Phone className="text-primary" size={20} />
-                                <Link href="tel:+13079982087" className="text-gray-400 hover:text-white transition-colors">
-                                    +1 (307) 998-2087
+                                <Link href="tel:+10000000000" className="text-gray-400 hover:text-white transition-colors">
+                                    +1 (000) 000-0000
                                 </Link>
                             </li>
                             <li className="flex items-center gap-3">
@@ -90,7 +90,7 @@ const Footer = () => {
                             <li className="flex items-start gap-3">
                                 <MapPin className="text-primary shrink-0" size={20} />
                                 <span className="text-gray-400">
-                                    30 N Gould St Ste R Sheridan, WY 82801, USA
+                                    Downtown Business Center, New York, NY, USA
                                 </span>
                             </li>
                         </ul>

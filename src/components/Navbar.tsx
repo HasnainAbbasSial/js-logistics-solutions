@@ -108,7 +108,7 @@ const Navbar = () => {
 
                 {/* CTA Button */}
                 <Link
-                  href="tel:+13079982087"
+                  href="tel:+10000000000"
                   className="ml-4 bg-gradient-to-r from-primary to-red-600 text-white px-6 py-2.5 rounded-full font-bold 
                     flex items-center gap-2 shadow-lg shadow-primary/25 
                     hover:shadow-xl hover:shadow-primary/40 hover:scale-105 hover:-translate-y-0.5
@@ -118,7 +118,7 @@ const Navbar = () => {
                   }}
                 >
                   <Phone size={16} className="animate-[wiggle_2s_ease-in-out_infinite]" />
-                  <span className="hidden lg:inline">+1 (307) 998-2087</span>
+                  <span className="hidden lg:inline">+1 (000) 000-0000</span>
                   <span className="lg:hidden">Call</span>
                 </Link>
               </div>
