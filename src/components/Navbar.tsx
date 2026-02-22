@@ -65,15 +65,13 @@ const Navbar = () => {
                   ${scrolled ? "scale-90" : "scale-100"}
                 `}
               >
-                <div className={`transition-all duration-500 rounded-2xl overflow-hidden
-                  ${!showSolidHeader ? "bg-white px-3 py-1.5 shadow-xl" : ""}
-                `}>
+                <div className={`transition-all duration-500 rounded-2xl overflow-hidden`}>
                   <Image
                     src="/logo.png"
                     alt="JS Logistics Solutions Logo"
-                    width={160}
-                    height={45}
-                    className="h-8 w-auto"
+                    width={200}
+                    height={56}
+                    className="h-10 w-auto"
                     priority
                   />
                 </div>
@@ -109,7 +107,7 @@ const Navbar = () => {
                 {/* CTA Button */}
                 <Link
                   href="tel:+14560467584"
-                  className="ml-4 bg-gradient-to-r from-primary to-red-600 text-white px-6 py-2.5 rounded-full font-bold 
+                  className="ml-4 bg-gradient-to-r from-primary to-amber-500 text-white px-6 py-2.5 rounded-full font-bold 
                     flex items-center gap-2 shadow-lg shadow-primary/25 
                     hover:shadow-xl hover:shadow-primary/40 hover:scale-105 hover:-translate-y-0.5
                     active:scale-95 transition-all duration-300 ease-out"

@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] md:h-screen flex items-center overflow-hidden pt-20">
+      <section className="relative min-h-[90vh] md:h-screen flex items-center overflow-hidden pt-8">
         <div className="absolute inset-0 z-0">
           <Image
             src="/hero-bg.png"
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="bg-primary hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all transform hover:scale-105"
+                className="bg-primary hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all transform hover:scale-105"
               >
                 Get Started Now <ArrowRight size={20} />
               </Link>
@@ -176,7 +176,7 @@ export default function Home() {
           <div className="flex flex-center justify-center gap-6">
             <Link
               href="tel:+14560467584"
-              className="inline-flex items-center gap-2 bg-primary text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-red-700 transition-all shadow-xl shadow-primary/20"
+              className="inline-flex items-center gap-2 bg-primary text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-amber-600 transition-all shadow-xl shadow-primary/20"
             >
               Contact Us <Phone size={20} />
             </Link>
