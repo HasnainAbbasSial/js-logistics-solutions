@@ -10,7 +10,8 @@ import {
   BarChart3,
   Clock,
   ShieldCheck,
-  PhoneCall
+  PhoneCall,
+  Phone
 } from "lucide-react";
 
 export default function Home() {
