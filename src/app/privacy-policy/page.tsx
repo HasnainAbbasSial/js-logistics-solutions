@@ -52,9 +52,9 @@ const PrivacyPolicy = () => {
                             If you have any questions about this Privacy Policy, please contact us at:
                         </p>
                         <div className="mt-4 p-6 bg-accent/50 dark:bg-gray-900 rounded-2xl">
-                            <p className="font-bold">AXE Dispatch LLC</p>
-                            <p>Email: info@axedispatch.com</p>
-                            <p>Address: 30 N Gould St Ste R Sheridan, WY 82801, USA</p>
+                            <p className="font-bold">JS Logistics Solutions</p>
+                            <p>Email: info@jslogisticssolutions.com</p>
+                            <p>Address: Downtown Business Center, New York, NY, USA</p>
                         </div>
                     </section>
                 </div>
